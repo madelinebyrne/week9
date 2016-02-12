@@ -59,7 +59,7 @@ process.stdin.on('keypress', function (ch, key) {
   }
 
 
-  if (key && key.ctrl && key.name == 'enter') {
+  if (key && key.ctrl && key.name == 'c') {
     process.stdin.pause();
   }
 });
